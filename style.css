@@ -20,7 +20,7 @@ a:hover
 
 body
 {
-    background-color: rgba(31, 31, 31, 0.97);
+    background-color: #1F1F1F;
     color: #e2e2e2;
 }
 
@@ -29,11 +29,17 @@ header
     font-size: xx-large;
 }
 
-#gallery
+#gallery{}
 
 .thumbnail
 {
     width: 150px;
     height: 150px;
     padding: 5px;
+    border: 1px #1F1F1F solid ;
+}
+
+.thumbnail:hover
+{
+    border: 1px #e2e2e2 solid;
 }
