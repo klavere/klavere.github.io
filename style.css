@@ -15,21 +15,30 @@ a
 
 a:hover
 {
-    opacity: 0.5;
+    text-decoration: underline;
 }
 
 body
 {
     background-color: #1F1F1F;
-    color: #e2e2e2;
+    color: #b0b0b0;
 }
 
 header
 {
     font-size: xx-large;
+    padding: 5px;
+    color: #e2e2e2;
 }
 
-#gallery{}
+#gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: normal;
+    text-align: center;
+}
 
 .thumbnail
 {
