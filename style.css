@@ -6,13 +6,30 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover
+{
+    opacity: 0.5;
+}
+
 body
 {
-    background-color: rgba(31, 31, 31, 0.9);
+    background-color: rgba(31, 31, 31, 0.97);
     color: #e2e2e2;
 }
 
 header
 {
     font-size: xx-large;
+}
+
+.thumbnail
+{
+    width: 150px;
+    height: 150px;
 }
