@@ -10,6 +10,7 @@ a
 {
     text-decoration: none;
     color: inherit;
+    font-size: x-small;
 }
 
 a:hover
@@ -28,8 +29,11 @@ header
     font-size: xx-large;
 }
 
+#gallery
+
 .thumbnail
 {
     width: 150px;
     height: 150px;
+    padding: 5px;
 }
