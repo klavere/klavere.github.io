@@ -32,6 +32,15 @@ header
     padding-top: 30px;
 }
 
+header a{
+    padding-left: 10px;
+}
+
+.fa
+{
+    color: #b0b0b0;
+}
+
 #gallery
 {
     display: flex;
