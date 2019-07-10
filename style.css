@@ -10,12 +10,11 @@ a
 {
     text-decoration: none;
     color: inherit;
-    font-size: x-small;
 }
 
 a:hover
 {
-    text-decoration: underline;
+    font-weight: 900;
 }
 
 body
@@ -29,6 +28,8 @@ header
     font-size: xx-large;
     padding: 5px;
     color: #e2e2e2;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 #gallery
@@ -38,7 +39,7 @@ header
     justify-content: left;
     align-items: normal;
     text-align: center;
-    font-size: x-small;
+    font-size: small;
 }
 
 .thumbnail
@@ -51,5 +52,5 @@ header
 
 .thumbnail:hover
 {
-    border: 1px #e2e2e2 solid;
+    border: 1px rgba(226,226,226,0.3) solid;
 }
