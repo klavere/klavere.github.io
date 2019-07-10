@@ -38,12 +38,13 @@ header
     justify-content: left;
     align-items: normal;
     text-align: center;
+    font-size: x-small;
 }
 
 .thumbnail
 {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding: 5px;
     border: 1px #1F1F1F solid ;
 }
